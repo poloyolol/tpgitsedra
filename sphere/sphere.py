@@ -4,13 +4,13 @@ class Sphere(object):
 
     def __init__(self, radius):
         # uncomment the following line
-        #self.radius = radius
+        self.radius = radius
         pass
 
     # *** STEP 2 ***
     # uncomment the 2 following lines
-    #def __str__(self):
-    #    return '%s(%s)' % (self.__class__.__name__, self.radius)
+    def __str__(self):
+        return '%s(%s)' % (self.__class__.__name__, self.radius)
 
     def surface(self):
         # *** STEP 3 ***
