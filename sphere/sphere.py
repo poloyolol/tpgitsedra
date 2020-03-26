@@ -22,7 +22,7 @@ class Sphere(object):
         # *** STEP 4 ***
         # uncomment the following line
 <<<<<<< HEAD
-        return 4.0/3.0 * 3.1416 * self.radius ** 3
+        return 4.0/3.0 * math.pi * self.radius ** 3
 =======
         return 4/3 * 3 * self.radius ** 3
 >>>>>>> refs/remotes/origin/master
