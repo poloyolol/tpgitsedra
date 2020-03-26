@@ -15,17 +15,15 @@ class Sphere(object):
     def surface(self):
         # j'ai modifie cette ligne
         # uncomment the following line
-        return 4.0 * 3.1416 * self.radius ** 2
+        return 4.0 * math.pi * self.radius ** 2
         pass
 
     def volume(self):
         # *** STEP 4 ***
         # uncomment the following line
-<<<<<<< HEAD
-        return 4.0/3.0 * 3.1416 * self.radius ** 3
-=======
-        return 4/3 * 3 * self.radius ** 3
->>>>>>> refs/remotes/origin/master
+        ##Ajout math.pi ici
+        return 4.0/3.0 * math.pi * self.radius ** 3
+
         pass
 
     def diameter(self):
